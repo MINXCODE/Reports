@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EXPORT>
+<DATASOURCE APPNAME="MINX2023" DATASOURCE_ID="1682c4e3_1832408867c_-7284" DATASOURCE_NAME="HFM_MINX2023 (2)" DBNAME="MINX2023" SERVER="HFM_PRD_CLS" TYPE="FinancialManagement"/>
+<DATASOURCE APPNAME="MINXIF23" DATASOURCE_ID="1682c4e3_1832408867c_-72b9" DATASOURCE_NAME="HFM_MINXIF23 (2)" DBNAME="MINXIF23" SERVER="HFM_PRD_CLS" TYPE="FinancialManagement"/>
+<DESIGN DESIGNNAME="/Reports/MINX2023 Reports/Tie Point Reports/Summary Tie Points/Tie-Point 03 - Unpaid Expended Authority = Accounts Payable" REPORT_DESCRIPTION="Unpaid Expended Authority = Accounts Payable" REPORT_FOOTER_HEIGHT="720" REPORT_HEADER_HEIGHT="1728" REPORT_HEIGHT="15840" REPORT_ORIENTATION="22131" REPORT_PAPER_FORMAT="22094" REPORT_PRINT_BOTTOM_MARGIN="360" REPORT_PRINT_LEFT_MARGIN="360" REPORT_PRINT_ORIENTATION="22131" REPORT_PRINT_PAGE_SIZE="22091" REPORT_PRINT_RIGHT_MARGIN="360" REPORT_PRINT_TOP_MARGIN="360" REPORT_UNITS="22122" REPORT_WIDTH="12240" VERSION="7.0">
+<LAYOUT NAME="Header">
+<TEXTOBJECT FONT_BOLD="0" FONT_COLOR="0" FONT_ITALIC="0" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" FONT_STRIKEOUT="0" FONT_UNDERLINE="0" NAME="\\\Text4" OBJECT_HEIGHT="1620" OBJECT_INFRONT="" OBJECT_LAYOUT="0" OBJECT_LEFT="360" OBJECT_TOP="0" OBJECT_WIDTH="8325" TEXT_AUTOOPTION="0" TEXT_BORDER="0" TEXT_RAISED="0" TEXT_SHADE="16777215" TEXT_UNDERLINE="0" VERSION="2.0">
+<TEXTVIEW DESIGN_NON_RTF_TEXT="Department of Veterans AffairsTie-Point 03: ConsolidatedFor Accounting Period Ending &lt;&lt;MemberDescription(&quot;Grid1&quot;, C, &quot;Period&quot;)&gt;&gt; &lt;&lt;POVMember(&quot;Grid1&quot;, Year)&gt;&gt;3. Unpaid Expended Authority = Accounts PayableNote: All Non-Budgetary TAFS are suppressed">
+<DESIGN_RTF><![CDATA[e1xydGYxXGFuc2lcZGVmZjAgDQp7XGZvbnR0Ymx7XGYwIEFyaWFsO317XGYxIFRpbWVzO317XGYyIENvdXJpZXIgTmV3O319DQp7XGNvbG9ydGJsDQo7DQpccmVkMFxncmVlbjBcYmx1ZTA7DQp9DQp7XGluZm8NCntcdGl0bGUgfQ0Ke1xkb2Njb21tIEdlbmVyYXRlZCBieSBPcmFjbGUgQkkgUHVibGlzaGVyIDExLjEuMS45LjB9DQp9DQpcZm9ybXNoYWRlXHZpZXdraW5kMVx2aWV3YmtzcDFcdWMxXGRudGJsbnNiZGINClxwYXBlcncxMjI0MFxwYXBlcmgxNTg0MFxtYXJndDBcbWFyZ2IwXG1hcmdsMFxtYXJncjANClxwYXJkXGl0YXAwXHNsMFxzYjBcc2EwXGxpbjE2MFxyaW4xNjAge1xmMFxmczI0XGNmMSBEZXBhcnRtZW50IG9mIFZldGVyYW5zIEFmZmFpcnN9e1xmMFxmczI0XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyNFxjZjEgVGllLVBvaW50IDAzOiBDb25zb2xpZGF0ZWR9e1xmMFxmczI0XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyNFxjZjEgRm9yIEFjY291bnRpbmcgUGVyaW9kIEVuZGluZyA8PE1lbWJlckRlc2NyaXB0aW9uKCJHcmlkMSIsIEMsICJQZXJpb2QiKT4+IDw8UE9WTWVtYmVyKCJHcmlkMSIsIFllYXIpPj59e1xmMFxmczI0XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIFxwYXINClxwYXJkXGl0YXAwXHNsMFxzYjBcc2EwXGxpbjE2MFxyaW4xNjAge1xmMFxmczIwXGJcY2YxIDMuIFVucGFpZCBFeHBlbmRlZCBBdXRob3JpdHkgPSBBY2NvdW50cyBQYXlhYmxlfXtcZjBcZnMyMFxiXGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyMFxiXGNmMSBOb3RlOiBBbGwgTm9uLUJ1ZGdldGFyeSBUQUZTIGFyZSBzdXBwcmVzc2VkfXtcZjBcZnMyMFxiXGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IxNjBcc2ExNjBcbGluMTYwXHJpbjE2MCBccGFyDQp9DQo=]]></DESIGN_RTF>
+</TEXTVIEW>
+</TEXTOBJECT>
+</LAYOUT>
+<BINARY NAME="\\\Text4"><![CDATA[rO0ABXNyADBjb20uaHlwZXJpb24ucmVwb3J0aW5nLmNvbnRlbnRzLkJpbmFyeURhdGFPYmplY3SKdbXPmwk9LgIAAkkABHNpemVbAAdiaW5EYXRhdAACW0J4cAAAA+91cgACW0Ks8xf4BghU4AIAAHhwAAAD73tccnRmMVxhbnNpXGRlZmYwIA0Ke1xmb250dGJse1xmMCBBcmlhbDt9e1xmMSBUaW1lczt9e1xmMiBDb3VyaWVyIE5ldzt9fQ0Ke1xjb2xvcnRibA0KOw0KXHJlZDBcZ3JlZW4wXGJsdWUwOw0KfQ0Ke1xpbmZvDQp7XHRpdGxlIH0NCntcZG9jY29tbSBHZW5lcmF0ZWQgYnkgT3JhY2xlIEJJIFB1Ymxpc2hlciAxMS4xLjEuOS4wfQ0KfQ0KXGZvcm1zaGFkZVx2aWV3a2luZDFcdmlld2Jrc3AxXHVjMVxkbnRibG5zYmRiDQpccGFwZXJ3MTIyNDBccGFwZXJoMTU4NDBcbWFyZ3QwXG1hcmdiMFxtYXJnbDBcbWFyZ3IwDQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyNFxjZjEgRGVwYXJ0bWVudCBvZiBWZXRlcmFucyBBZmZhaXJzfXtcZjBcZnMyNFxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxzYTBcbGluMTYwXHJpbjE2MCB7XGYwXGZzMjRcY2YxIFRpZS1Qb2ludCAwMzogQ29uc29saWRhdGVkfXtcZjBcZnMyNFxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxzYTBcbGluMTYwXHJpbjE2MCB7XGYwXGZzMjRcY2YxIEZvciBBY2NvdW50aW5nIFBlcmlvZCBFbmRpbmcgPDxNZW1iZXJEZXNjcmlwdGlvbigiR3JpZDEiLCBDLCAiUGVyaW9kIik+PiA8PFBPVk1lbWJlcigiR3JpZDEiLCBZZWFyKT4+fXtcZjBcZnMyNFxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxzYTBcbGluMTYwXHJpbjE2MCBccGFyDQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyMFxiXGNmMSAzLiBVbnBhaWQgRXhwZW5kZWQgQXV0aG9yaXR5ID0gQWNjb3VudHMgUGF5YWJsZX17XGYwXGZzMjBcYlxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxzYTBcbGluMTYwXHJpbjE2MCB7XGYwXGZzMjBcYlxjZjEgTm90ZTogQWxsIE5vbi1CdWRnZXRhcnkgVEFGUyBhcmUgc3VwcHJlc3NlZH17XGYwXGZzMjBcYlxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMTYwXHNhMTYwXGxpbjE2MFxyaW4xNjAgXHBhcg0KfQ0K]]></BINARY>
+<LAYOUT NAME="Detail">
+<GRIDOBJECT ALIASTABLE="Default" COLUMN_COUNT="11" DATASOURCE_DETAILS="HFM_MINX2023 (2):HFM_PRD_CLS:MINX2023:MINX2023:FinancialManagement" DATASOURCE_ID="1682c4e3_1832408867c_-7284" NAME="\\\Grid1" OBJECT_HEIGHT="4140" OBJECT_LEFT="180" OBJECT_TOP="255" OBJECT_WIDTH="9900" PAGE_PAGEBREAK="1" PAGE_STYLE_IDX="2" ROW_COUNT="5" SHOWPOV="1" SUPPRESSION_ERROR="0" SUPPRESSION_NODATA="0" SUPPRESSION_ZEROVALUES="0" VERSION="2.5">
+<ROW_PROP HEIGHT="55" ROW="0"/>
+<ROW_PROP HEIGHT="56" HIDE_ALWAYS="1" ROW="1"/>
+<ROW_PROP ROW="2" SUPPRESSION="2"/>
+<ROW_PROP ROW="3" SUPPRESSION="2"/>
+<ROW_PROP ROW="4" SUPPRESSION="2"/>
+<COL_PROP COL="0" WIDTH="123"/>
+<COL_PROP COL="1" SUPPRESSION="1"/>
+<COL_PROP COL="2" SUPPRESSION="1" WIDTH="68"/>
+<COL_PROP COL="3" HIDE_ALWAYS="1" SUPPRESSION="3" WIDTH="110"/>
+<COL_PROP COL="4" SUPPRESSION="3" WIDTH="110"/>
+<COL_PROP COL="5" HIDE_ALWAYS="1" SUPPRESSION="3" WIDTH="108"/>
+<COL_PROP COL="6" SUPPRESSION="1" WIDTH="126"/>
+<COL_PROP COL="7" HIDE_ALWAYS="1" SUPPRESSION="3" WIDTH="130"/>
+<COL_PROP COL="8" SUPPRESSION="3" WIDTH="127"/>
+<COL_PROP COL="9" SUPPRESSION="3" WIDTH="130"/>
+<COL_PROP COL="10" SUPPRESSION="3" WIDTH="130"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="0"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="1"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Arial" FONT_SIZE="10" INDEX="2" VALIGN="0"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="3" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="4" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="5" NUM_DECIMALS="2"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="6" NUM_DECIMALS="2"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="7"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="8" NUM_DECIMALS="2" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="9" NUM_DECIMALS="2" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="10" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" SHADING="8421504"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="11" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" SHADING="8421504"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="12" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="13" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<STYLE_IDX COL_IDX="7,5,12,10,8,10,8,10,3,3,3" ROW="0"/>
+<STYLE_IDX COL_IDX="1,5,12,10,8,10,8,10,3,3,3" ROW="1"/>
+<STYLE_IDX COL_IDX="0,6,13,11,9,11,9,11,4,4,4" ROW="2"/>
+<STYLE_IDX COL_IDX="0,6,13,11,9,11,9,11,4,4,4" ROW="3"/>
+<STYLE_IDX COL_IDX="0,6,13,11,9,11,9,11,4,4,4" ROW="4"/>
+<COND_SUPPRESSION BASIC_SUPP="-1" INDEX="1">
+<COMP_CONDITION>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_3" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2755_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="361415" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="365" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="D" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="F" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="H" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="J" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0869" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0891" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1030" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1060" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1099" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1210" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1299" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1411" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1422" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1435" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2431" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2466" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2473" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2732" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2733" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2734" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2751" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2755" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2767" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2814" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3102" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3200" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3220" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5014" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3500" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3502" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3845" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3875" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3880" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3885" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5392" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6020" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6050" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6275" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6276" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6278" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6279" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6501" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="_AMAF" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+</COMP_CONDITION>
+</COND_SUPPRESSION>
+<COND_SUPPRESSION BASIC_SUPP="-1" INDEX="2">
+<COMP_CONDITION>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_3" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2755_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="361415" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="365" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0869" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0891" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1030" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1060" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1099" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1210" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1299" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1411" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1422" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1435" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2431" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2466" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2473" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2732" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2733" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2734" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2751" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2755" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2767" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2814" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3102" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3200" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3220" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5014" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3500" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3502" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3845" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3875" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3880" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3885" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6020" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6050" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6275" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6276" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6278" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6279" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6501" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="_AMAF" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="D" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="F" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="H" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="J" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="2"/>
+</COMP_CONDITION>
+</COND_SUPPRESSION>
+<COND_SUPPRESSION BASIC_SUPP="-1" INDEX="3">
+<COMP_CONDITION>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_1" RIGHT_TYPE="-1"/>
+</COMP_CONDITION>
+</COND_SUPPRESSION>
+<GRIDMATRIX>
+<GRIDCELL COLUMN="0" ROW="-2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="Admin"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL CALC_ORDER="3" COLUMN="-1" ROW="-2" TYPE="1">
+<GRIDSEGMENT SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION VALUE="TAFS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="0" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="VHA"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="-2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="Source"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="0" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="FMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="1" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="VBA"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="1" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="FMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL CALC_ORDER="3" COLUMN="3" ROW="0" TYPE="1">
+<GRIDSEGMENT SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION VALUE="[C]"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="DeptAdmin"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="FMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+</GRIDMATRIX>
+<GRIDAXIS AXISNAME="Row" MAX_SEGMENT_ID="14">
+<GRIDLAYER DIMENSIONNAME="Entity"/>
+<GRIDSEGMENT ID="8">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36X0110&quot;, &quot;Entity&quot;) ,  Member(&quot;3622260110&quot;, &quot;Entity&quot;) ,  Member(&quot;3621270110&quot;, &quot;Entity&quot;) ,  Member(&quot;3621260110&quot;, &quot;Entity&quot;) ,  Member(&quot;3621250110&quot;, &quot;Entity&quot;) ,  Member(&quot;3620260110&quot;, &quot;Entity&quot;) ,  Member(&quot;3620250110&quot;, &quot;Entity&quot;) ,  Member(&quot;3620240110&quot;, &quot;Entity&quot;) ,  Member(&quot;3619250110&quot;, &quot;Entity&quot;) ,  Member(&quot;3619240110&quot;, &quot;Entity&quot;) ,  Member(&quot;3619230110&quot;, &quot;Entity&quot;) ,  Member(&quot;3618240110&quot;, &quot;Entity&quot;) ,  Member(&quot;3618230110&quot;, &quot;Entity&quot;) ,  Member(&quot;3618220110&quot;, &quot;Entity&quot;) ,  Member(&quot;3617220110&quot;, &quot;Entity&quot;) ,  Member(&quot;3617210110&quot;, &quot;Entity&quot;) ,  Member(&quot;3616200110&quot;, &quot;Entity&quot;) ,  Member(&quot;3615190110&quot;, &quot;Entity&quot;) ,  Member(&quot;3613170110&quot;, &quot;Entity&quot;) ,  Member(&quot;3614180110&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0111&quot;, &quot;Entity&quot;) ,  Member(&quot;3622260111&quot;, &quot;Entity&quot;) ,  Member(&quot;3621250111&quot;, &quot;Entity&quot;) ,  Member(&quot;3620240111&quot;, &quot;Entity&quot;) ,  Member(&quot;3619230111&quot;, &quot;Entity&quot;) ,  Member(&quot;3618220111&quot;, &quot;Entity&quot;) ,  Member(&quot;3617210111&quot;, &quot;Entity&quot;) ,  Member(&quot;3616200111&quot;, &quot;Entity&quot;) ,  Member(&quot;3615190111&quot;, &quot;Entity&quot;) ,  Member(&quot;3614180111&quot;, &quot;Entity&quot;) ,  Member(&quot;3613170111&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220131&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230131&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0140&quot;, &quot;Entity&quot;) ,  Member(&quot;3620140&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230140&quot;, &quot;Entity&quot;) ,  Member(&quot;3610140&quot;, &quot;Entity&quot;) ,  Member(&quot;3621240140&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220140&quot;, &quot;Entity&quot;) ,  Member(&quot;3600140&quot;, &quot;Entity&quot;) ,  Member(&quot;3620230140&quot;, &quot;Entity&quot;) ,  Member(&quot;3620220140&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210140&quot;, &quot;Entity&quot;) ,  Member(&quot;3690140&quot;, &quot;Entity&quot;) ,  Member(&quot;3619220140&quot;, &quot;Entity&quot;) ,  Member(&quot;3680140&quot;, &quot;Entity&quot;) ,  Member(&quot;3618210140&quot;, &quot;Entity&quot;) ,  Member(&quot;3670140&quot;, &quot;Entity&quot;) ,  Member(&quot;3617200140&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0152&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230152&quot;, &quot;Entity&quot;) ,  Member(&quot;3620152&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220152&quot;, &quot;Entity&quot;) ,  Member(&quot;3610152&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210152&quot;, &quot;Entity&quot;) ,  Member(&quot;3600152&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200152&quot;, &quot;Entity&quot;) ,  Member(&quot;3690152&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190152&quot;, &quot;Entity&quot;) ,  Member(&quot;3680152&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180152&quot;, &quot;Entity&quot;) ,  Member(&quot;3670152&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170152&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0160&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230160&quot;, &quot;Entity&quot;) ,  Member(&quot;3620160&quot;, &quot;Entity&quot;) ,  Member(&quot;3621230160&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220160&quot;, &quot;Entity&quot;) ,  Member(&quot;3610160&quot;, &quot;Entity&quot;) ,  Member(&quot;3620220160&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210160&quot;, &quot;Entity&quot;) ,  Member(&quot;3600160&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200160&quot;, &quot;Entity&quot;) ,  Member(&quot;3690160&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190160&quot;, &quot;Entity&quot;) ,  Member(&quot;3680160&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180160&quot;, &quot;Entity&quot;) ,  Member(&quot;3670160&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170160&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0161&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230161&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220161&quot;, &quot;Entity&quot;) ,  Member(&quot;3620240161&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210161&quot;, &quot;Entity&quot;) ,  Member(&quot;3619230161&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200161&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190161&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180161&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170161&quot;, &quot;Entity&quot;) ,  Member(&quot;3696970161&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0162&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230162&quot;, &quot;Entity&quot;) ,  Member(&quot;3620162&quot;, &quot;Entity&quot;) ,  Member(&quot;3621250162&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220162&quot;, &quot;Entity&quot;) ,  Member(&quot;3610162&quot;, &quot;Entity&quot;) ,  Member(&quot;3620240162&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210162&quot;, &quot;Entity&quot;) ,  Member(&quot;3600162&quot;, &quot;Entity&quot;) ,  Member(&quot;3619230162&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200162&quot;, &quot;Entity&quot;) ,  Member(&quot;3690162&quot;, &quot;Entity&quot;) ,  Member(&quot;3618220162&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190162&quot;, &quot;Entity&quot;) ,  Member(&quot;3680162&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180162&quot;, &quot;Entity&quot;) ,  Member(&quot;3670162&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170162&quot;, &quot;Entity&quot;) ,  Member(&quot;3614150162&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0165&quot;, &quot;Entity&quot;) ,  Member(&quot;97_36X0165&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0167&quot;, &quot;Entity&quot;) ,  Member(&quot;3621250167&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230167&quot;, &quot;Entity&quot;) ,  Member(&quot;3620167&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220167&quot;, &quot;Entity&quot;) ,  Member(&quot;3610167&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210167&quot;, &quot;Entity&quot;) ,  Member(&quot;3600167&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200167&quot;, &quot;Entity&quot;) ,  Member(&quot;3690167&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190167&quot;, &quot;Entity&quot;) ,  Member(&quot;3680167&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180167&quot;, &quot;Entity&quot;) ,  Member(&quot;3670167&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170167&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0169&quot;, &quot;Entity&quot;) ,  Member(&quot;3622230169&quot;, &quot;Entity&quot;) ,  Member(&quot;3620169&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220169&quot;, &quot;Entity&quot;) ,  Member(&quot;3610169&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210169&quot;, &quot;Entity&quot;) ,  Member(&quot;3600169&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200169&quot;, &quot;Entity&quot;) ,  Member(&quot;3690169&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190169&quot;, &quot;Entity&quot;) ,  Member(&quot;3680169&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180169&quot;, &quot;Entity&quot;) ,  Member(&quot;3670169&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170169&quot;, &quot;Entity&quot;) ,  Member(&quot;3614150169&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0172&quot;, &quot;Entity&quot;) ,  Member(&quot;3621230173&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0181&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220181&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210181&quot;, &quot;Entity&quot;) ,  Member(&quot;3622241123&quot;, &quot;Entity&quot;) ,  Member(&quot;3621231123&quot;, &quot;Entity&quot;) ,  Member(&quot;3620221123&quot;, &quot;Entity&quot;) ,  Member(&quot;3619211123&quot;, &quot;Entity&quot;) ,  Member(&quot;3618201123&quot;, &quot;Entity&quot;) ,  Member(&quot;36X1124&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4014&quot;, &quot;Entity&quot;) ,  Member(&quot;3620214014&quot;, &quot;Entity&quot;) ,  Member(&quot;36X5287&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8180&quot;, &quot;Entity&quot;) ,  Member(&quot;36_AMAF&quot;, &quot;Entity&quot;) ,  Member(&quot;36_AMAFMF&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="11">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36X0102&quot;, &quot;Entity&quot;) ,  Member(&quot;3620102&quot;, &quot;Entity&quot;) ,  Member(&quot;3610102&quot;, &quot;Entity&quot;) ,  Member(&quot;3600102&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0137&quot;, &quot;Entity&quot;) ,  Member(&quot;3621114&quot;, &quot;Entity&quot;) ,  Member(&quot;3611114&quot;, &quot;Entity&quot;) ,  Member(&quot;3601114&quot;, &quot;Entity&quot;) ,  Member(&quot;3691114&quot;, &quot;Entity&quot;) ,  Member(&quot;3681114&quot;, &quot;Entity&quot;) ,  Member(&quot;3671114&quot;, &quot;Entity&quot;) ,  Member(&quot;3661114&quot;, &quot;Entity&quot;) ,  Member(&quot;3651114&quot;, &quot;Entity&quot;) ,  Member(&quot;36X1121&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_1&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_2&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_3&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_4&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_5&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2473_7&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2767_3&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4112&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8133&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0120&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4009&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4010&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4012&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8132&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8150&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8455&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0128&quot;, &quot;Entity&quot;) ,  Member(&quot;36X1119&quot;, &quot;Entity&quot;) ,  Member(&quot;3621119&quot;, &quot;Entity&quot;) ,  Member(&quot;3611119&quot;, &quot;Entity&quot;) ,  Member(&quot;3601119&quot;, &quot;Entity&quot;) ,  Member(&quot;3691119&quot;, &quot;Entity&quot;) ,  Member(&quot;3681119&quot;, &quot;Entity&quot;) ,  Member(&quot;3671119&quot;, &quot;Entity&quot;) ,  Member(&quot;3661119&quot;, &quot;Entity&quot;) ,  Member(&quot;3651119&quot;, &quot;Entity&quot;) ,  Member(&quot;36X1120&quot;, &quot;Entity&quot;) ,  Member(&quot;3621120&quot;, &quot;Entity&quot;) ,  Member(&quot;3611120&quot;, &quot;Entity&quot;) ,  Member(&quot;3601120&quot;, &quot;Entity&quot;) ,  Member(&quot;3691120&quot;, &quot;Entity&quot;) ,  Member(&quot;3681120&quot;, &quot;Entity&quot;) ,  Member(&quot;3671120&quot;, &quot;Entity&quot;) ,  Member(&quot;3661120&quot;, &quot;Entity&quot;) ,  Member(&quot;3651120&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2733_3&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2751_1&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2751_3&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2755_1&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2814&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4025&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4124&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4127&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4129&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4130&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4258&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="13">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36X0142&quot;, &quot;Entity&quot;) ,  Member(&quot;3620142&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220142&quot;, &quot;Entity&quot;) ,  Member(&quot;3610142&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210142&quot;, &quot;Entity&quot;) ,  Member(&quot;3600142&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200142&quot;, &quot;Entity&quot;) ,  Member(&quot;3690142&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190142&quot;, &quot;Entity&quot;) ,  Member(&quot;3680142&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180142&quot;, &quot;Entity&quot;) ,  Member(&quot;3670142&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170142&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0170&quot;, &quot;Entity&quot;) ,  Member(&quot;3620170&quot;, &quot;Entity&quot;) ,  Member(&quot;3621230170&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220170&quot;, &quot;Entity&quot;) ,  Member(&quot;3610170&quot;, &quot;Entity&quot;) ,  Member(&quot;3620220170&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210170&quot;, &quot;Entity&quot;) ,  Member(&quot;3600170&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200170&quot;, &quot;Entity&quot;) ,  Member(&quot;3690170&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190170&quot;, &quot;Entity&quot;) ,  Member(&quot;3680170&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180170&quot;, &quot;Entity&quot;) ,  Member(&quot;3670170&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170170&quot;, &quot;Entity&quot;) ,  Member(&quot;3621122&quot;, &quot;Entity&quot;) ,  Member(&quot;3621231122&quot;, &quot;Entity&quot;) ,  Member(&quot;3621221122&quot;, &quot;Entity&quot;) ,  Member(&quot;3611122&quot;, &quot;Entity&quot;) ,  Member(&quot;3620211122&quot;, &quot;Entity&quot;) ,  Member(&quot;3601122&quot;, &quot;Entity&quot;) ,  Member(&quot;3619201122&quot;, &quot;Entity&quot;) ,  Member(&quot;3691122&quot;, &quot;Entity&quot;) ,  Member(&quot;3618191122&quot;, &quot;Entity&quot;) ,  Member(&quot;3681122&quot;, &quot;Entity&quot;) ,  Member(&quot;3617181122&quot;, &quot;Entity&quot;) ,  Member(&quot;3671122&quot;, &quot;Entity&quot;) ,  Member(&quot;3616171122&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_1&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_12&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_90&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_2&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_10&quot;, &quot;Entity&quot;) ,  Member(&quot;36F3880_35&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4018&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4537&quot;, &quot;Entity&quot;) ,  Member(&quot;36X4539&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6019&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6020&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6050&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6275&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6276&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6279&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6500&quot;, &quot;Entity&quot;) ,  Member(&quot;36X6501&quot;, &quot;Entity&quot;) ,  Member(&quot;36_0869&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1030&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1060&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1099&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1210&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1299&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1499&quot;, &quot;Entity&quot;) ,  Member(&quot;36_2649&quot;, &quot;Entity&quot;) ,  Member(&quot;3622231130&quot;, &quot;Entity&quot;) ,  Member(&quot;1130.3622231130&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<GRIDAXIS AXISNAME="Column" MAX_SEGMENT_ID="46">
+<GRIDLAYER DIMENSIONNAME="Account"/>
+<GRIDLAYER DIMENSIONNAME="Period"/>
+<GRIDSEGMENT ID="35" SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="@TEXT"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="46" SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="@TEXT"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="0">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADING="Assets" HEADTYPE="17" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;*&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4901US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4971US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4981US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="5" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Budgetary" VALUE="[C]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="1">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;2110US&quot;, &quot;Account&quot;), Member(&quot;2120US&quot;, &quot;Account&quot;), Member(&quot;2130US&quot;, &quot;Account&quot;), Member(&quot;2140US&quot;, &quot;Account&quot;), Member(&quot;2141US&quot;, &quot;Account&quot;), Member(&quot;2190US&quot;, &quot;Account&quot;), Member(&quot;2210US&quot;, &quot;Account&quot;), Member(&quot;2211US&quot;, &quot;Account&quot;), Member(&quot;2213US&quot;, &quot;Account&quot;), Member(&quot;2215US&quot;, &quot;Account&quot;), Member(&quot;2218US&quot;, &quot;Account&quot;), Member(&quot;2940US&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="3" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Proprietary&#10;" VALUE="[E]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="21">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;1312&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="45" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Valid Reconciling Items" VALUE="[G]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="4" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Difference" VALUE="[D] + [F] - [H]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="25" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Absolute Value Difference" VALUE="Abs([I])"/>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<GRIDAXIS AXISNAME="Page" MAX_SEGMENT_ID="0">
+<GRIDLAYER DIMENSIONNAME="Custom3"/>
+<GRIDSEGMENT ID="0">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="3" VALUE="SELECT * FROM &quot;Custom3&quot; WHERE Member(&quot;TotalC3&quot;, &quot;Custom3&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<POV ALIASTABLE="Default" DATASOURCE_ID="1682c4e3_1832408867c_-7284" DIMCOUNT="13" ORGBYPERIOD_ENABLED="0" ORGBYPERIOD_PERIOD="" ORGBYPERIOD_SCENARIO="" ORGBYPERIOD_YEAR="" REFRESH_DESC="0" RELATEDCONTENT_CHANGE="0" SHOW_ALIAS="0" SHOW_DIMNAME="1" SHOW_MEMBERDESC="0" SHOW_MEMBERNAME="1" VERSION="7.3">
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Scenario">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Year">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Year&lt;/STRING&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Period">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Period&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Period&lt;/STRING&gt;&lt;STRING&gt;Dim&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="View">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Entity"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Value">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Account"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="ICP">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom1">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom2">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="1" HIDDEN="1" NAME="Custom3"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom4">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="TradingPartner">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+</POV>
+</GRIDOBJECT>
+<GRIDOBJECT ALIASTABLE="Default" COLUMN_COUNT="14" DATASOURCE_DETAILS="HFM_MINXIF23 (2):HFM_PRD_CLS:MINXIF23:MINXIF23:FinancialManagement" DATASOURCE_ID="1682c4e3_1832408867c_-72b9" NAME="\\\Grid2" OBJECT_HEIGHT="4140" OBJECT_LEFT="120" OBJECT_TOP="4515" OBJECT_WIDTH="9900" PAGE_PAGEBREAK="1" PAGE_STYLE_IDX="2" ROW_COUNT="6" SHOWPOV="1" SUPPRESSION_ERROR="0" SUPPRESSION_NODATA="0" SUPPRESSION_ZEROVALUES="0" VERSION="2.5">
+<ROW_PROP HEIGHT="55" ROW="0"/>
+<ROW_PROP HEIGHT="55" HIDE_ALWAYS="1" ROW="1"/>
+<ROW_PROP ROW="2" SUPPRESSION="-1"/>
+<ROW_PROP ROW="3" SUPPRESSION="-1"/>
+<ROW_PROP ROW="4" SUPPRESSION="-1"/>
+<ROW_PROP ROW="5" SUPPRESSION="-1"/>
+<COL_PROP COL="0" WIDTH="123"/>
+<COL_PROP COL="1" SUPPRESSION="1"/>
+<COL_PROP COL="2" SUPPRESSION="1" WIDTH="68"/>
+<COL_PROP COL="3" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="126"/>
+<COL_PROP COL="4" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="110"/>
+<COL_PROP COL="5" SUPPRESSION="-1" WIDTH="110"/>
+<COL_PROP COL="6" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="108"/>
+<COL_PROP COL="7" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="126"/>
+<COL_PROP COL="8" SUPPRESSION="1" WIDTH="126"/>
+<COL_PROP COL="9" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="130"/>
+<COL_PROP COL="10" HIDE_ALWAYS="1" SUPPRESSION="-1" WIDTH="127"/>
+<COL_PROP COL="11" WIDTH="127"/>
+<COL_PROP COL="12" SUPPRESSION="2" WIDTH="130"/>
+<COL_PROP COL="13" SUPPRESSION="2" WIDTH="130"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" INDEX="0"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="1"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Arial" FONT_SIZE="10" INDEX="2" VALIGN="0"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="3" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="4" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="5" NUM_DECIMALS="2"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="6" NUM_DECIMALS="2"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="7"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="8" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" NUM_SCALE_BY="-1.0" SHADING="8421504"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="9" NUM_DECIMALS="2" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="10" NUM_DECIMALS="2" NUM_NEG_PREFIX="&lt;empty&gt;"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="11" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" SHADING="8421504"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="12" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" SHADING="8421504"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="13" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" NUM_SCALE_BY="-1.0" SHADING="8421504"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="2" INDEX="14" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")" NUM_SCALE_BY="-1.0" SHADING="8421504"/>
+<CELL_STYLE FONT_BOLD="1" FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="15" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<CELL_STYLE FONT_NAME="Microsoft Sans Serif" FONT_SIZE="8" HALIGN="1" INDEX="16" NUM_DECIMALS="2" NUM_NEG_PREFIX="(" NUM_NEG_SUFFIX=")"/>
+<STYLE_IDX COL_IDX="7,5,15,11,11,9,11,11,9,11,13,3,3,3" ROW="0"/>
+<STYLE_IDX COL_IDX="1,5,15,11,11,9,11,11,9,11,13,3,3,3" ROW="1"/>
+<STYLE_IDX COL_IDX="0,6,16,12,12,10,12,12,10,12,14,4,4,4" ROW="2"/>
+<STYLE_IDX COL_IDX="0,6,16,12,12,10,12,12,10,12,8,4,4,4" ROW="3"/>
+<STYLE_IDX COL_IDX="0,6,16,12,12,10,12,12,10,12,8,4,4,4" ROW="4"/>
+<STYLE_IDX COL_IDX="0,6,16,12,12,10,12,12,10,12,8,4,4,4" ROW="5"/>
+<COND_SUPPRESSION BASIC_SUPP="-1" INDEX="1">
+<COMP_CONDITION>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_3" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2755_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="361415" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="365" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="E" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="H" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="K" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="M" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0869" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0891" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1030" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1060" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1099" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1210" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1299" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1411" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1422" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1435" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2431" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2466" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2473" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2732" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2733" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2734" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2751" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2755" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2767" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2814" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3102" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3200" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3220" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5014" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3500" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3502" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3845" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3875" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3880" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3885" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5392" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6020" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6050" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6275" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6276" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6278" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6279" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6501" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="_AMAF" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+</COMP_CONDITION>
+</COND_SUPPRESSION>
+<COND_SUPPRESSION INDEX="2">
+<COMP_CONDITION>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2751_3" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="6" RIGHT_QUALIFIER="36_2755_1" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="361415" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="365" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="E" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="H" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="K" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="3"/>
+<CONDITION LEFT_QUALIFIER="M" LEFT_TYPE="2" OPERATOR="0" RIGHT_QUALIFIER="" RIGHT_TYPE="8"/>
+<OPERATOR TYPE="2"/>
+<OPERATOR TYPE="4"/>
+<OPERATOR TYPE="1"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0869" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="0891" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1030" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1060" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1099" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1210" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1299" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1411" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1422" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="1435" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2431" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2466" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2473" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2732" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2733" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2734" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2751" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2755" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2767" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="2814" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3102" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3200" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="3220" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5014" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3500" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3502" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3845" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3875" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3880" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="F3885" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5287" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X5392" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6020" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6050" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6275" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6276" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6278" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6279" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="8" RIGHT_QUALIFIER="36X6501" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="4"/>
+<CONDITION LEFT_QUALIFIER="Entity" LEFT_TYPE="3" OPERATOR="10" RIGHT_QUALIFIER="_AMAF" RIGHT_TYPE="-1"/>
+<OPERATOR TYPE="2"/>
+</COMP_CONDITION>
+</COND_SUPPRESSION>
+<GRIDMATRIX>
+<GRIDCELL COLUMN="0" ROW="-2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="Admin"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL CALC_ORDER="3" COLUMN="-1" ROW="-2" TYPE="1">
+<GRIDSEGMENT SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION VALUE="TAFS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="0" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="NCA"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="-2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="Source"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="0" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="iFAMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="3" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="DeptAdmin"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="3" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="FMS/iFAMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="1" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="VBA"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="1" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="iFAMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL CALC_ORDER="3" COLUMN="4" ROW="0" TYPE="1">
+<GRIDSEGMENT SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION VALUE="[D] + [C]"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="0" ROW="2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="VBA"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+<GRIDCELL COLUMN="1" ROW="2" TYPE="0">
+<GRIDSEGMENT SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="FMS/iFAMS"/>
+</GRIDSEGMENT>
+</GRIDCELL>
+</GRIDMATRIX>
+<GRIDAXIS AXISNAME="Row" MAX_SEGMENT_ID="18">
+<GRIDLAYER DIMENSIONNAME="Entity"/>
+<GRIDSEGMENT ID="8">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36X0129&quot;, &quot;Entity&quot;) ,  Member(&quot;3620129&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220129&quot;, &quot;Entity&quot;) ,  Member(&quot;3610129&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210129&quot;, &quot;Entity&quot;) ,  Member(&quot;3600129&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200129&quot;, &quot;Entity&quot;) ,  Member(&quot;3690129&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190129&quot;, &quot;Entity&quot;) ,  Member(&quot;3680129&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180129&quot;, &quot;Entity&quot;) ,  Member(&quot;3670129&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170129&quot;, &quot;Entity&quot;) ,  Member(&quot;36C0129&quot;, &quot;Entity&quot;) ,  Member(&quot;36X0183&quot;, &quot;Entity&quot;) ,  Member(&quot;36X5392&quot;, &quot;Entity&quot;) ,  Member(&quot;36X8129&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="16">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36X0151&quot;, &quot;Entity&quot;) ,  Member(&quot;3620151&quot;, &quot;Entity&quot;) ,  Member(&quot;3621230151&quot;, &quot;Entity&quot;) ,  Member(&quot;3621220151&quot;, &quot;Entity&quot;) ,  Member(&quot;3610151&quot;, &quot;Entity&quot;) ,  Member(&quot;3620210151&quot;, &quot;Entity&quot;) ,  Member(&quot;3600151&quot;, &quot;Entity&quot;) ,  Member(&quot;3619200151&quot;, &quot;Entity&quot;) ,  Member(&quot;3690151&quot;, &quot;Entity&quot;) ,  Member(&quot;3618190151&quot;, &quot;Entity&quot;) ,  Member(&quot;3680151&quot;, &quot;Entity&quot;) ,  Member(&quot;3617180151&quot;, &quot;Entity&quot;) ,  Member(&quot;3670151&quot;, &quot;Entity&quot;) ,  Member(&quot;3616170151&quot;, &quot;Entity&quot;) ,  Member(&quot;36C0151&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="18">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;3622241126&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="13">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Entity&quot; WHERE Member(&quot;36F3845&quot;, &quot;Entity&quot;) ,  Member(&quot;36_1435&quot;, &quot;Entity&quot;) ,  Member(&quot;36_3220&quot;, &quot;Entity&quot;) ,  Member(&quot;36_3200&quot;, &quot;Entity&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<GRIDAXIS AXISNAME="Column" MAX_SEGMENT_ID="50">
+<GRIDLAYER DIMENSIONNAME="Account"/>
+<GRIDLAYER DIMENSIONNAME="Period"/>
+<GRIDSEGMENT ID="35" SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="@TEXT"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="46" SEGMENT_TYPE="2">
+<DERIVEDEXPRESSION VALUE="@TEXT"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="50">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;49010001&quot;, &quot;Account&quot;) ,  Member(&quot;49010002&quot;, &quot;Account&quot;) ,  Member(&quot;49010003&quot;, &quot;Account&quot;) ,  Member(&quot;49010004&quot;, &quot;Account&quot;) ,  Member(&quot;49710001&quot;, &quot;Account&quot;) ,  Member(&quot;49810001&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT DATASOURCE_DETAILS="HFM_MINX2023 (2):HFM_PRD_CLS:MINX2023:MINX2023:FinancialManagement" DATASOURCE_ID="1682c4e3_1832408867c_-7284" ID="48">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADING="Assets" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;*&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4901US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4971US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;4981US&lt;/STRING&gt;&lt;STRING&gt;Account&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="5" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Budgetary" VALUE="[D] + [c]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT DATASOURCE_DETAILS="HFM_MINX2023 (2):HFM_PRD_CLS:MINX2023:MINX2023:FinancialManagement" DATASOURCE_ID="1682c4e3_1832408867c_-7284" ID="1">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;2110US&quot;, &quot;Account&quot;), Member(&quot;2120US&quot;, &quot;Account&quot;), Member(&quot;2130US&quot;, &quot;Account&quot;), Member(&quot;2140US&quot;, &quot;Account&quot;), Member(&quot;2141US&quot;, &quot;Account&quot;), Member(&quot;2190US&quot;, &quot;Account&quot;), Member(&quot;2210US&quot;, &quot;Account&quot;), Member(&quot;2211US&quot;, &quot;Account&quot;), Member(&quot;2213US&quot;, &quot;Account&quot;), Member(&quot;2215US&quot;, &quot;Account&quot;), Member(&quot;2218US&quot;, &quot;Account&quot;), Member(&quot;2940US&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="37">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;21100001&quot;, &quot;Account&quot;) ,  Member(&quot;21100002&quot;, &quot;Account&quot;) ,  Member(&quot;21100003&quot;, &quot;Account&quot;) ,  Member(&quot;21100004&quot;, &quot;Account&quot;) ,  Member(&quot;21100005&quot;, &quot;Account&quot;) ,  Member(&quot;21100006&quot;, &quot;Account&quot;) ,  Member(&quot;21100007&quot;, &quot;Account&quot;) ,  Member(&quot;21100008&quot;, &quot;Account&quot;) ,  Member(&quot;21100009&quot;, &quot;Account&quot;) ,  Member(&quot;21100010&quot;, &quot;Account&quot;) ,  Member(&quot;21100021&quot;, &quot;Account&quot;) ,  Member(&quot;21100022&quot;, &quot;Account&quot;) ,  Member(&quot;21200001&quot;, &quot;Account&quot;) ,  Member(&quot;21200002&quot;, &quot;Account&quot;) ,  Member(&quot;21200003&quot;, &quot;Account&quot;) ,  Member(&quot;21200004&quot;, &quot;Account&quot;) ,  Member(&quot;21200010&quot;, &quot;Account&quot;) ,  Member(&quot;21200011&quot;, &quot;Account&quot;) ,  Member(&quot;21200012&quot;, &quot;Account&quot;) ,  Member(&quot;21200013&quot;, &quot;Account&quot;) ,  Member(&quot;21300001&quot;, &quot;Account&quot;) ,  Member(&quot;21400001&quot;, &quot;Account&quot;) ,  Member(&quot;21400002&quot;, &quot;Account&quot;) ,  Member(&quot;21400003&quot;, &quot;Account&quot;) ,  Member(&quot;21410001&quot;, &quot;Account&quot;) ,  Member(&quot;21410002&quot;, &quot;Account&quot;) ,  Member(&quot;21550001&quot;, &quot;Account&quot;) ,  Member(&quot;21550002&quot;, &quot;Account&quot;) ,  Member(&quot;21900001&quot;, &quot;Account&quot;) ,  Member(&quot;21900002&quot;, &quot;Account&quot;) ,  Member(&quot;21900003&quot;, &quot;Account&quot;) ,  Member(&quot;21900004&quot;, &quot;Account&quot;) ,  Member(&quot;22100001&quot;, &quot;Account&quot;) ,  Member(&quot;22100002&quot;, &quot;Account&quot;) ,  Member(&quot;22110001&quot;, &quot;Account&quot;) ,  Member(&quot;22130001&quot;, &quot;Account&quot;) ,  Member(&quot;22180001&quot;, &quot;Account&quot;) ,  Member(&quot;22180002&quot;, &quot;Account&quot;) ,  Member(&quot;22180003&quot;, &quot;Account&quot;) ,  Member(&quot;22180004&quot;, &quot;Account&quot;) ,  Member(&quot;22180005&quot;, &quot;Account&quot;) ,  Member(&quot;29400001&quot;, &quot;Account&quot;) ,  Member(&quot;29400002&quot;, &quot;Account&quot;) ,  Member(&quot;29400003&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="3" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Proprietary&#10;" VALUE="[F] + [G]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT DATASOURCE_DETAILS="HFM_MINX2023 (2):HFM_PRD_CLS:MINX2023:MINX2023:FinancialManagement" DATASOURCE_ID="1682c4e3_1832408867c_-7284" ID="21">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="17" VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;1312&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="41">
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Account&quot; WHERE Member(&quot;21100002&quot;, &quot;Account&quot;) ,  Member(&quot;21100003&quot;, &quot;Account&quot;) ,  Member(&quot;21100010&quot;, &quot;Account&quot;) ,  Member(&quot;21200002&quot;, &quot;Account&quot;) ,  Member(&quot;21200003&quot;, &quot;Account&quot;) ,  Member(&quot;21200010&quot;, &quot;Account&quot;) ,  Member(&quot;21200012&quot;, &quot;Account&quot;) ,  Member(&quot;21200013&quot;, &quot;Account&quot;) ,  Member(&quot;29400003&quot;, &quot;Account&quot;)"/>
+</SEGMENTLAYER>
+<SEGMENTLAYER>
+<METADATAEXPRESSION VALUE="SELECT * FROM &quot;Period&quot; WHERE Member(&quot;Current Point of View for Period&quot;, &quot;Period&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="45" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Valid Reconciling Items" VALUE="[I] + [J]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="4" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Difference" VALUE="[E] + [H] - [K]"/>
+</GRIDSEGMENT>
+<GRIDSEGMENT ID="25" SEGMENT_TYPE="1">
+<DERIVEDEXPRESSION HEADING="Absolute Value Difference" VALUE="Abs([L])"/>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<GRIDAXIS AXISNAME="Page" MAX_SEGMENT_ID="0">
+<GRIDLAYER DIMENSIONNAME="Custom3"/>
+<GRIDSEGMENT ID="0">
+<SEGMENTLAYER>
+<METADATAEXPRESSION HEADTYPE="3" VALUE="SELECT * FROM &quot;Custom3&quot; WHERE Member(&quot;TotalC3&quot;, &quot;Custom3&quot;)"/>
+</SEGMENTLAYER>
+</GRIDSEGMENT>
+</GRIDAXIS>
+<POV ALIASTABLE="Default" DATASOURCE_ID="1682c4e3_1832408867c_-7284" DIMCOUNT="13" ORGBYPERIOD_ENABLED="0" ORGBYPERIOD_PERIOD="" ORGBYPERIOD_SCENARIO="" ORGBYPERIOD_YEAR="" REFRESH_DESC="0" RELATEDCONTENT_CHANGE="0" SHOW_ALIAS="0" SHOW_DIMNAME="1" SHOW_MEMBERDESC="0" SHOW_MEMBERNAME="1" VERSION="7.3">
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Scenario">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Year">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Year&lt;/STRING&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Period">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Period&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Period&lt;/STRING&gt;&lt;STRING&gt;Dim&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="View">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Entity"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Value">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Account"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="ICP">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom1">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom2">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="1" HIDDEN="1" NAME="Custom3"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom4">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="TradingPartner">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+</POV>
+<POV ALIASTABLE="Default" DATASOURCE_ID="1682c4e3_1832408867c_-72b9" DIMCOUNT="13" ORGBYPERIOD_ENABLED="0" ORGBYPERIOD_PERIOD="" ORGBYPERIOD_SCENARIO="" ORGBYPERIOD_YEAR="" REFRESH_DESC="0" RELATEDCONTENT_CHANGE="0" SHOW_ALIAS="0" SHOW_DIMNAME="1" SHOW_MEMBERDESC="0" SHOW_MEMBERNAME="1" VERSION="7.3">
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Scenario">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;Actual&lt;/STRING&gt;&lt;STRING&gt;Scenario&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Year">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Year&lt;/STRING&gt;&lt;STRING&gt;Year&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="0" NAME="Period">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Period&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;User Point of View for Period&lt;/STRING&gt;&lt;STRING&gt;Dim&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="View">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;YTD&lt;/STRING&gt;&lt;STRING&gt;View&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Entity"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Value">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;&amp;lt;Entity Curr Total&amp;gt;&lt;/STRING&gt;&lt;STRING&gt;Value&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Account"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="ICP">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;[ICP Top]&lt;/STRING&gt;&lt;STRING&gt;ICP&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom1">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC1&lt;/STRING&gt;&lt;STRING&gt;Custom1&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom2">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC2&lt;/STRING&gt;&lt;STRING&gt;Custom2&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION DISABLED="0" HIDDEN="1" NAME="Custom3"/>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="Custom4">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC4&lt;/STRING&gt;&lt;STRING&gt;Custom4&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+<DIMENSION CHOICESLIST="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;COMPOSITEOPERATION TYPE=&quot;List&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;" DISABLED="0" HIDDEN="0" NAME="TradingPartner">
+<METADATAEXPRESSION VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;COMPOSITEOPERATION TYPE=&quot;MemberQuery&quot;&gt;&lt;OPERATION TYPE=&quot;Select&quot;&gt;&lt;MULTIVALUE&gt;&lt;STRING&gt;Name&lt;/STRING&gt;&lt;/MULTIVALUE&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;COMPOSITEOPERATION TYPE=&quot;Filter&quot;&gt;&lt;OPERATION TYPE=&quot;Member&quot;&gt;&lt;STRING&gt;TotalC5&lt;/STRING&gt;&lt;STRING&gt;TradingPartner&lt;/STRING&gt;&lt;/OPERATION&gt;&lt;/COMPOSITEOPERATION&gt;&lt;/COMPOSITEOPERATION&gt;"/>
+</DIMENSION>
+</POV>
+</GRIDOBJECT>
+</LAYOUT>
+<LAYOUT NAME="Footer">
+<TEXTOBJECT FONT_BOLD="False" FONT_COLOR="0" FONT_ITALIC="False" FONT_NAME="Times New Roman" FONT_SIZE="9" FONT_STRIKEOUT="False" FONT_UNDERLINE="False" NAME="\\\Text3" OBJECT_HEIGHT="360" OBJECT_INFRONT="" OBJECT_LAYOUT="2" OBJECT_LEFT="0" OBJECT_TOP="0" OBJECT_WIDTH="4350" TEXT_AUTOOPTION="0" TEXT_BORDER="0" TEXT_RAISED="0" TEXT_SHADE="16777215" TEXT_UNDERLINE="False" VERSION="2.0">
+<TEXTVIEW DESIGN_NON_RTF_TEXT="Report Generated on: &lt;&lt;Date(&quot;M/d/yy - h:mm:ss a z&quot;)&gt;&gt;Report Created by: &lt;&lt;ReportRunBy()&gt;&gt; &lt;&lt;ReportFolder()&gt;&gt;/&lt;&lt;ReportName()&gt;&gt; &amp;nbsp;&amp;nbsp;">
+<DESIGN_RTF><![CDATA[e1xydGYxXGFuc2lcZGVmZjAgDQp7XGZvbnR0Ymx7XGYwIEFyaWFsO317XGYxIFRpbWVzO317XGYyIENvdXJpZXIgTmV3O319DQp7XGNvbG9ydGJsDQo7DQpccmVkMFxncmVlbjBcYmx1ZTA7DQp9DQp7XGluZm8NCntcdGl0bGUgfQ0Ke1xkb2Njb21tIEdlbmVyYXRlZCBieSBPcmFjbGUgQkkgUHVibGlzaGVyIDExLjEuMS45LjB9DQp9DQpcZm9ybXNoYWRlXHZpZXdraW5kMVx2aWV3YmtzcDFcdWMxXGRudGJsbnNiZGINClxwYXBlcncxMjI0MFxwYXBlcmgxNTg0MFxtYXJndDBcbWFyZ2IwXG1hcmdsMFxtYXJncjANClxwYXJkXGl0YXAwXHNsMFxzYjBcc2EwXGxpbjE2MFxyaW4xNjAge1xmMFxmczE2XGNmMSBSZXBvcnQgR2VuZXJhdGVkIG9uOiA8PERhdGUoIk0vZC95eSAtIGg6bW06c3MgYSB6Iik+Pn17XGYwXGZzMTZcY2YxXHBhcn0NClxwYXJkXGl0YXAwXHNsMFxzYjBcbGluMTYwXHJpbjE2MCB7XGYwXGZzMTZcY2YxIFJlcG9ydCBDcmVhdGVkIGJ5OiA8PFJlcG9ydFJ1bkJ5KCk+PiB9e1xmMFxmczE2XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXGxpbjE2MFxyaW4xNjAge1xmMFxmczE2XGNmMSA8PFJlcG9ydEZvbGRlcigpPj4vPDxSZXBvcnROYW1lKCk+PiB9e1xmMFxmczE2XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXGxpbjE2MFxyaW4xNjAge1xmMFxmczI0XGNmMSAgfXtcZjBcZnMyNFxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyNFxjZjEgIH17XGYwXGZzMjRcY2YxXHBhcn0NClxwYXJkXGl0YXAwXHNsMFxzYjE2MFxzYTE2MFxsaW4xNjBccmluMTYwIFxwYXINCn0NCg==]]></DESIGN_RTF>
+</TEXTVIEW>
+</TEXTOBJECT>
+</LAYOUT>
+<BINARY NAME="\\\Text3"><![CDATA[rO0ABXNyADBjb20uaHlwZXJpb24ucmVwb3J0aW5nLmNvbnRlbnRzLkJpbmFyeURhdGFPYmplY3SKdbXPmwk9LgIAAkkABHNpemVbAAdiaW5EYXRhdAACW0J4cAAAAzR1cgACW0Ks8xf4BghU4AIAAHhwAAADNHtccnRmMVxhbnNpXGRlZmYwIA0Ke1xmb250dGJse1xmMCBBcmlhbDt9e1xmMSBUaW1lczt9e1xmMiBDb3VyaWVyIE5ldzt9fQ0Ke1xjb2xvcnRibA0KOw0KXHJlZDBcZ3JlZW4wXGJsdWUwOw0KfQ0Ke1xpbmZvDQp7XHRpdGxlIH0NCntcZG9jY29tbSBHZW5lcmF0ZWQgYnkgT3JhY2xlIEJJIFB1Ymxpc2hlciAxMS4xLjEuOS4wfQ0KfQ0KXGZvcm1zaGFkZVx2aWV3a2luZDFcdmlld2Jrc3AxXHVjMVxkbnRibG5zYmRiDQpccGFwZXJ3MTIyNDBccGFwZXJoMTU4NDBcbWFyZ3QwXG1hcmdiMFxtYXJnbDBcbWFyZ3IwDQpccGFyZFxpdGFwMFxzbDBcc2IwXHNhMFxsaW4xNjBccmluMTYwIHtcZjBcZnMxNlxjZjEgUmVwb3J0IEdlbmVyYXRlZCBvbjogPDxEYXRlKCJNL2QveXkgLSBoOm1tOnNzIGEgeiIpPj59e1xmMFxmczE2XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IwXGxpbjE2MFxyaW4xNjAge1xmMFxmczE2XGNmMSBSZXBvcnQgQ3JlYXRlZCBieTogPDxSZXBvcnRSdW5CeSgpPj4gfXtcZjBcZnMxNlxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxsaW4xNjBccmluMTYwIHtcZjBcZnMxNlxjZjEgPDxSZXBvcnRGb2xkZXIoKT4+Lzw8UmVwb3J0TmFtZSgpPj4gfXtcZjBcZnMxNlxjZjFccGFyfQ0KXHBhcmRcaXRhcDBcc2wwXHNiMFxsaW4xNjBccmluMTYwIHtcZjBcZnMyNFxjZjEgIH17XGYwXGZzMjRcY2YxXHBhcn0NClxwYXJkXGl0YXAwXHNsMFxzYjBcbGluMTYwXHJpbjE2MCB7XGYwXGZzMjRcY2YxICB9e1xmMFxmczI0XGNmMVxwYXJ9DQpccGFyZFxpdGFwMFxzbDBcc2IxNjBcc2ExNjBcbGluMTYwXHJpbjE2MCBccGFyDQp9DQo=]]></BINARY>
+</DESIGN>
+</EXPORT>
